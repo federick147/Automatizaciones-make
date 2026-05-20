@@ -1,0 +1,1 @@
+Read the skill file at `.agents/skills/onboarding/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/onboarding/references/`, load them as needed. Follow all instructions in the skill exactly.

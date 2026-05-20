@@ -1,0 +1,1 @@
+Read the skill file at `.agents/skills/marketing-psychology/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/marketing-psychology/references/`, load them as needed. Follow all instructions in the skill exactly.
