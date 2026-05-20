@@ -1,0 +1,89 @@
+{
+  "skill_name": "martech",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're a B2B SaaS startup with 5k customers. We have GA4, HubSpot, and Intercom. Our marketing team can't tell which campaigns drive signups because the data is all over the place. What should we do?",
+      "expected_output": "Should check for product-marketing.md. Should apply the stack layers framework and identify the missing Data Hub layer. Should recommend UTM parameter discipline as the first quick fix. Should identify attribution as the core problem: GA4 tracks web, HubSpot tracks leads, Intercom tracks product — no unified view. Should recommend a streaming CDP (Segment or RudderStack) or at minimum consistent UTM naming + HubSpot multi-touch attribution. Should prioritize by effort/impact. Should not recommend enterprise solutions beyond stage.",
+      "assertions": [
+        "Checks for product-marketing.md",
+        "Applies stack layers framework",
+        "Identifies missing data hub / unified customer view",
+        "Recommends UTM discipline as quick fix",
+        "Suggests CDP or attribution solution appropriate to stage",
+        "Prioritizes by effort and impact",
+        "Does not over-engineer for a 5k customer startup"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Should we use HubSpot or Salesforce for our B2B SaaS? We have 8 salespeople and are doing $3M ARR growing fast.",
+      "expected_output": "Should apply the CRM selection criteria. At $3M ARR with 8 salespeople, HubSpot is typically the right recommendation — lower admin overhead, faster setup, sufficient features. Should explain the trade-off: HubSpot is all-in-one but has ceiling in complexity; Salesforce is infinitely customizable but requires a dedicated admin/Salesforce developer. Should ask about sales process complexity, existing integrations, and admin capacity. Should not give a definitive recommendation without knowing those factors.",
+      "assertions": [
+        "Applies CRM comparison framework",
+        "Provides HubSpot vs Salesforce trade-off analysis",
+        "Factors in company stage ($3M ARR, 8 salespeople)",
+        "Asks about sales process complexity and admin capacity",
+        "Does not blindly recommend one without qualifying questions"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We want to send behavioral emails — like 'you haven't used feature X in 2 weeks' — but we only have Mailchimp right now. What do we need?",
+      "expected_output": "Should identify Mailchimp as a time-based ESP, not a behavioral one. Should explain the gap: behavioral emails require product event data sent to an email tool in real-time. Should recommend Customer.io, Klaviyo, or Braze as behavioral email tools. Should explain the data flow: product events → CDP or direct API → email tool trigger. Should describe implementation at a high level: track feature_used event, define segment of users who haven't triggered it in 14 days, trigger email campaign. Should reference the analytics skill for event tracking setup.",
+      "assertions": [
+        "Identifies Mailchimp's limitation for behavioral triggers",
+        "Recommends appropriate behavioral email tool",
+        "Explains the required data flow (events → email tool)",
+        "Provides implementation overview",
+        "References analytics skill for event tracking"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "We're spending $50k/month on ads across Google, Meta, and LinkedIn. We have no idea what's actually working. How do we set up attribution?",
+      "expected_output": "Should apply the attribution modeling section. Should explain why each platform's native attribution is biased (each claims credit). Should recommend a multi-touch attribution approach. Should define the pragmatic stack: UTM parameters + GA4 for first-party web data, platform native attribution for optimization signals, a third-party attribution tool (Rockerbox, Triple Whale, or Northbeam depending on B2B vs e-com) for cross-channel view. Should mention incrementality testing as the gold standard. Should warn that no model is perfect and triangulation is needed.",
+      "assertions": [
+        "Explains why platform-native attribution is biased",
+        "Recommends multi-touch attribution approach",
+        "Provides a pragmatic attribution stack",
+        "Recommends appropriate tool for the use case",
+        "Mentions incrementality testing",
+        "Warns that no model is perfect"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Audit our martech stack. We have: Salesforce, Marketo, GA4, Hotjar, Segment, Clearbit, Drift, Gong, Loom, Intercom, Statuspage, and Zapier. Costs us $200k/year.",
+      "expected_output": "Should apply the stack audit framework. Should map tools to stack layers. Should identify potential redundancies (Drift + Intercom both do chat/messaging; Gong and Loom are not strictly martech). Should apply the scoring criteria to each tool. Should identify consolidation opportunities. Should ask about actual usage per tool before recommending cuts. Should produce a structured audit output with layers, status, and recommendations.",
+      "assertions": [
+        "Applies stack audit framework",
+        "Maps tools to stack layers",
+        "Identifies Drift + Intercom as potential redundancy",
+        "Notes Gong and Loom are not strictly martech",
+        "Asks about actual usage before recommending cuts",
+        "Produces structured audit output",
+        "Does not blindly recommend cuts without usage data"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "We want to enrich our leads in HubSpot automatically when they sign up — industry, company size, job title. How?",
+      "expected_output": "Should apply the data enrichment section. Should recommend Clearbit, Apollo, or Clay as appropriate enrichment tools. Should describe the enrichment workflow: new contact created in HubSpot → enrichment tool matches on email/domain → firmographic data written back to HubSpot custom properties → lead scoring and routing rules re-evaluate. Should mention HubSpot native integrations for Clearbit/Apollo. Should flag GDPR considerations for enrichment data. Should ask about budget and whether the team has engineering support for custom webhooks.",
+      "assertions": [
+        "Applies data enrichment framework",
+        "Recommends appropriate enrichment tool",
+        "Describes the enrichment workflow",
+        "Mentions HubSpot native integrations",
+        "Flags GDPR considerations",
+        "Asks about budget and engineering capacity"
+      ],
+      "files": []
+    }
+  ]
+}

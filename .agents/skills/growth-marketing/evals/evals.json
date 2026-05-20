@@ -1,0 +1,75 @@
+{
+  "skill_name": "growth-marketing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're a B2B SaaS with 1,200 monthly active accounts. Our MoM growth is 5%, but churn is 8%. What should we focus on?",
+      "expected_output": "Should apply the growth accounting framework. Quick ratio = (new + resurrected) / churned — at 8% churn the product is likely shrinking or barely growing. Should identify retention as the critical bottleneck before scaling acquisition. Should recommend diagnosing the retention curve and identifying what behavior predicts long-term retention. Should reference the AARRR framework and benchmark 8% monthly churn as well above the < 2% healthy range for B2B SaaS. Should suggest churn-prevention and onboarding skills for next steps.",
+      "assertions": [
+        "Applies growth accounting framework",
+        "Calculates or references Quick Ratio",
+        "Identifies 8% churn as above B2B SaaS benchmark",
+        "Recommends fixing retention before scaling acquisition",
+        "References AARRR funnel to locate the biggest leak",
+        "Suggests churn-prevention skill or retention diagnosis"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "What should our North Star Metric be? We run a marketplace connecting freelancers with small businesses.",
+      "expected_output": "Should apply the NSM framework. Should identify that for a marketplace the NSM should reflect value delivered to both sides — successful transactions or GMV. Should explain why vanity metrics (signups, page views) are poor NSMs. Should provide 2–3 candidate NSMs with rationale (e.g., 'completed engagements per week,' 'repeat hire rate,' 'GMV'). Should define input metrics (supply-side activation, demand-side conversion, repeat usage) that move the NSM. Should check for product marketing context.",
+      "assertions": [
+        "Checks for product-marketing.md",
+        "Applies NSM framework and good NSM criteria",
+        "Recommends transaction-based or GMV metric for marketplace",
+        "Explains why signups/pageviews are poor NSMs",
+        "Provides 2–3 candidate NSMs with rationale",
+        "Maps supporting input metrics to the NSM"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We want to build a viral growth loop into our product. We're a design tool — users create and share presentations.",
+      "expected_output": "Should apply the growth loops framework, specifically product-led viral loops. Should recognize that shareable outputs (presentations) are a natural viral mechanic. Should map the loop: user creates → shares externally → viewer sees → converts to user. Should identify friction points in the loop (branding on shared docs, sign-up wall for viewers, incentives for sharing). Should suggest specific loop improvements: 'Made with [product]' watermark, easy share flow, viewer-to-signup conversion optimization. Should reference viral coefficient (K-factor) and how to measure it.",
+      "assertions": [
+        "Applies growth loops framework",
+        "Identifies product-led viral loop for design/sharing tool",
+        "Maps the complete loop: create → share → view → convert",
+        "Identifies specific friction points in the loop",
+        "Suggests concrete loop improvements",
+        "References K-factor and how to measure viral coefficient"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Our activation rate is 22%. Users sign up but never complete setup. How do we fix this?",
+      "expected_output": "Should flag 22% as below the 40% activation benchmark. Should apply the AARRR activation framework. Should recommend identifying the 'aha moment' and mapping current steps to reach it. Should suggest activation experiments: shorten onboarding, progressive disclosure, in-app tooltips, personalization by use case, email/SMS nudges. Should recommend using analytics and cohort analysis to find where users drop off in onboarding. Should suggest cross-referencing the onboarding skill for detailed implementation.",
+      "assertions": [
+        "Flags 22% as below 40% activation benchmark",
+        "Applies activation section of AARRR framework",
+        "Recommends identifying the aha moment",
+        "Suggests specific activation experiments",
+        "Recommends cohort drop-off analysis",
+        "References onboarding skill"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "We want to go product-led growth. We currently have a sales-led model for our project management tool.",
+      "expected_output": "Should apply the PLG framework. Should acknowledge this is a significant go-to-market shift, not just a product feature. Should walk through the PLG implementation checklist: free tier, self-serve onboarding, aha moment without sales, PQL definition, in-app upgrade flow, expansion revenue path. Should explain the concept of Product-Qualified Leads (PQLs) and how usage signals replace SDR outreach. Should identify key challenges in transitioning from sales-led to PLG (channel conflict, compensation, data instrumentation).",
+      "assertions": [
+        "Applies PLG framework",
+        "Acknowledges the scale of the GTM shift",
+        "Uses PLG implementation checklist",
+        "Explains PQL concept",
+        "Identifies challenges in transitioning from sales-led",
+        "Recommends specific steps for transition"
+      ],
+      "files": []
+    }
+  ]
+}
