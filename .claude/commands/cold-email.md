@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/cold-email/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/cold-email/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Write cold email sequences, subject lines, and personalized outreach.
+---
+
+Read `.agents/skills/cold-email/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/cold-email/references/` as needed.

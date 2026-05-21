@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/ab-testing/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/ab-testing/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Run A/B tests and experiments. Use for split testing, hypothesis design, and statistical analysis.
+---
+
+Read `.agents/skills/ab-testing/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/ab-testing/references/` as needed.

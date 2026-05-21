@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/video/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/video/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Plan and script video content for YouTube, TikTok, ads, and demos.
+---
+
+Read `.agents/skills/video/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/video/references/` as needed.

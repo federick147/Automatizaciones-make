@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/social/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/social/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Create social media content, calendars, and platform-specific posts.
+---
+
+Read `.agents/skills/social/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/social/references/` as needed.

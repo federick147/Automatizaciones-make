@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/competitor-profiling/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/competitor-profiling/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Research and profile competitors to identify positioning opportunities.
+---
+
+Read `.agents/skills/competitor-profiling/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/competitor-profiling/references/` as needed.

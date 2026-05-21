@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/competitors/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/competitors/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Build competitor comparison pages and battle cards.
+---
+
+Read `.agents/skills/competitors/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/competitors/references/` as needed.

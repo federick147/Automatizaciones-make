@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/popups/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/popups/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Design exit-intent popups, banners, and on-site conversion overlays.
+---
+
+Read `.agents/skills/popups/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/popups/references/` as needed.

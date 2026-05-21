@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/directory-submissions/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/directory-submissions/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Submit your product to directories, review sites, and listing platforms.
+---
+
+Read `.agents/skills/directory-submissions/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/directory-submissions/references/` as needed.

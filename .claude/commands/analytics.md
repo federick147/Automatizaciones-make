@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/analytics/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/analytics/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Set up analytics tracking, GA4, GTM, UTM parameters, and conversion measurement.
+---
+
+Read `.agents/skills/analytics/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/analytics/references/` as needed.

@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/customer-research/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/customer-research/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Conduct customer research, interviews, and voice-of-customer analysis.
+---
+
+Read `.agents/skills/customer-research/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/customer-research/references/` as needed.

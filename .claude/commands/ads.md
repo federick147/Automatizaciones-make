@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/ads/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/ads/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Plan and optimize paid advertising campaigns across Google, Meta, LinkedIn and more.
+---
+
+Read `.agents/skills/ads/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/ads/references/` as needed.

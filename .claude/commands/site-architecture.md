@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/site-architecture/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/site-architecture/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Plan and design website information architecture and navigation.
+---
+
+Read `.agents/skills/site-architecture/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/site-architecture/references/` as needed.

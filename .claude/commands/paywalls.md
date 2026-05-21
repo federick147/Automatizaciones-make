@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/paywalls/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/paywalls/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Design and optimize paywall experiences to increase free-to-paid conversion.
+---
+
+Read `.agents/skills/paywalls/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/paywalls/references/` as needed.

@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/product-marketing/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/product-marketing/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Capture product marketing context: positioning, personas, ICP, and messaging.
+---
+
+Read `.agents/skills/product-marketing/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/product-marketing/references/` as needed.

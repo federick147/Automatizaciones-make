@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/copywriting/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/copywriting/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Write marketing copy for landing pages, homepages, pricing pages, and feature pages.
+---
+
+Read `.agents/skills/copywriting/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/copywriting/references/` as needed.

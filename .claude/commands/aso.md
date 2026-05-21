@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/aso/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/aso/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Optimize app store listings for iOS App Store and Google Play.
+---
+
+Read `.agents/skills/aso/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/aso/references/` as needed.

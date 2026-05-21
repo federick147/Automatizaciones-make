@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/seo-audit/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/seo-audit/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Audit a website for SEO issues: technical, on-page, and content gaps.
+---
+
+Read `.agents/skills/seo-audit/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/seo-audit/references/` as needed.

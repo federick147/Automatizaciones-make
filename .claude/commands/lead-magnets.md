@@ -1,1 +1,5 @@
-Read the skill file at `.agents/skills/lead-magnets/SKILL.md` and apply it to help with the current task. If there are reference files in `.agents/skills/lead-magnets/references/`, load them as needed. Follow all instructions in the skill exactly.
+---
+description: Create lead magnets like guides, checklists, and templates to capture emails.
+---
+
+Read `.agents/skills/lead-magnets/SKILL.md` and apply the full framework to the current task. Load any files from `.agents/skills/lead-magnets/references/` as needed.
